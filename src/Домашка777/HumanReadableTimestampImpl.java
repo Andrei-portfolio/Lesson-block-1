@@ -73,5 +73,6 @@ public class HumanReadableTimestampImpl implements HumanReadableTimestamp {
         System.out.println(timestampFormatter.getTimestamp(LocalDateTime.now().minusMinutes(16))); // Опубликовано .... минут назад
         System.out.println(timestampFormatter.getTimestamp(LocalDateTime.now().minusHours(23))); // Опубликовано .... часа назад
         System.out.println(timestampFormatter.getTimestamp(LocalDateTime.now().minusDays(2))); // Опубликовано .... дней назад
+
     }
 }
